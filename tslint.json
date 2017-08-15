@@ -1,0 +1,16 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "interface-name": false,
+    "member-access": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "arrow-parens": false,
+    "trailing-comma": false,
+    "no-empty-interface": false,
+    "no-console": false,
+    "member-ordering": false,
+    "no-debugger": false,
+    "max-line-length": false
+  }
+}

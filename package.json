@@ -1,0 +1,24 @@
+{
+  "name": "webpack-typescript-react-less-starter",
+  "version": "0.0.0",
+  "author": "Suchan Lee",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --https --content-base ./ & webpack -w",
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint src/**/*.ts -t stylish"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "less-watch-compiler": "^1.6.7",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.2",
+    "tslint": "^5.5.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.4.2",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.14.1"
+  }
+}
